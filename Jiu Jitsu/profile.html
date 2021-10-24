@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Document</title>
+
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+/* Belt rank,gi/nogi/gym styles*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+</style>
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html" class="logo">Jiu Jitsu Meet Up</a>
+        <div class="header-right">
+            <a class="active" href="profile.html">Profile</a>
+            <a href="contact.html">Contact</a>
+            <a href="#about">About</a>
+
+        </div>
+    </div>
+    </div>
+
+    <div style="padding-left:20px">
+
+    </div>
+
+<!--Profile PAGE -->
+<h2 style="text-align:center">User Profile</h2>
+
+<div class="card">
+  <img src="https://lh3.googleusercontent.com/proxy/3ozJ775yzQonugd51IuPKoIsL1e8Te8nQmcG4UpK-lFNwmUeP23WX7ITejql8Rz1wDlg43FKwwjzgUZL-iATfWBmEdBock_72TfcbaTDfCfzqyI-Ow" alt="Kron Gracie" style="width:100%">
+  <h1>Kron Gracie</h1>
+  <p class="title">A Brazilian-American mixed martial artist and grappler. I am a member of the Gracie family; my father is Rickson and my grandfather is Hélio. Currently under contract with the UFC</p>
+  
+  <div style="margin: 24px 0;">
+    
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+     
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+</div>
+
+<br><br>
+
+
+<!--Belt Rank, Gym, Gi/No Gi-->
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <h3>Gym</h3>
+        <a class="fa fa-map-marker" style="font-size:26px" href="http://syndicatemmavegas.com/" target="_blank"> Syndicate Gym</a>
+        
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <h3>Belt Rank</h3>
+        <img src="blackbelt.jpg" alt="Black Belt" width="60" height="43">
+      
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <h3>Gi/No Gi</h3>
+        <img src="gi.jpg" alt="Gi/No Gi" width="70" height="73">
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <h3>Card 4</h3>
+        <p>Some text</p>
+        <p>Some text</p>
+      </div>
+    </div>
+  </div>
+  <br><br>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+
+    <title>Jiu Jitsu Meet Up Page</title>
+</head>
+
+<body>
+    <!--Header-->
+    <div class="header">
+        <a href="index.html" class="logo">Jiu Jitsu Meet Up</a>
+        <div class="header-right">
+            <a class="active" href="profile.html">Profile</a>
+            <a href="contact.html">Contact</a>
+            <a href="#about">About</a>
+
+        </div>
+    </div>
+    </div>
+
+    <div style="padding-left:20px">
+
+    </div>
+
+    <!--Side Vertical tabs-->
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Post</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')"> Local Events</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Jiu Jitsu World News</button>
+    </div>
+
+    <div id="London" class="tabcontent">
+        <h3>Post</h3>
+        <p>Here I can view all recent post and Post myself.</p>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+        <h3>Local Events</h3>
+        <p>Here I can see all local events and post my events</p>
+    </div>
+
+    <div id="Tokyo" class="tabcontent">
+        <h3>Jiu Jitsu Worlds News</h3>
+        <p>Here I can see all Jiu Jitsu news, ex. World tournaments, Recent JJ Winners.</p>
+    </div>
+
+    <!--Top Button-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+
+</html>
